@@ -2,7 +2,7 @@
 // Dice 1
 
 var b=Math.floor(6*Math.random()+1);
-var a="images/dice"+b+".png";
+var a="dice"+b+".png";
 // if((b==1)) {
 //   a="images/dice1.png";
 // }
@@ -26,7 +26,7 @@ document.querySelector(".img1").setAttribute("src",a);
 // Dice 2
 
 var b1=Math.floor(6*Math.random()+1);
-var a1="images/dice"+b1+".png";
+var a1="dice"+b1+".png";
 // if((b1==1)) {
 //   a1="images/dice1.png";
 // }
